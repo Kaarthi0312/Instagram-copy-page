@@ -65,7 +65,9 @@ body{
 /* RIGHT SECTION */
 .right-section{
     /* background-color: lightblue; */
-    width: 50vw;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
