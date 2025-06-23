@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram</title>
+    <link rel="icon" href="tab-icon4.png">
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <div class="sections">
+        <!-- LEFT SECTION -->
+        <div class="left-section">
+            <div class="icon-discription-image">
+                <div class="insta-icon">
+                    <img class="insta-top-icon" src="insta-inner.png" alt="Top-icon">
+                </div>
+                <div class="quotes">
+                    <div>
+                        See everyday moments from your
+                    </div>
+                    <div class="close-fd">
+                        close friends.
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img id="randomImage" class="image-home" src="" alt="home_image1" height="90%">
+                </div>
+            </div>
+        </div>
+
+        <div class="separation-line"></div>
+        <!-- RIGHT SECTION -->
+        <div class="right-section">
+            <div class="login-infos">
+                <div class="login-txt">
+                    Log into instagram
+                </div>
+                <div class=" input-classes">
+                    <input class="user_input" id="user_input" type="text" placeholder="Mobile number,username or email">
+                </div>
+                <div>
+                    <input class="pass_input" id="pass_input" type="text" placeholder="Password">
+                </div>
+                <div>
+                    <button id="login-button" class="login-btn btn" disabled>Log in</button>
+                </div>
+                <div>
+                    <button class="forgot-pass btn">Forgot password?</button>
+                </div>
+                <div>
+                    <button class="create-account btn">Create new account</button>
+                </div>
+                <div class="meta-icon">
+                    <div class="meta-img">
+                        <img class="meta-img-icon" src="meta-icon.png" alt="">
+                    </div>
+                    <div class="meta-txt">Meta</div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- single line -->
+    <div class="line"></div>
+
+    <!-- bottom-other infos -->
+    <div class="bottom">
+        <div class="reduction">
+            <div> <a class="items" target="_blank" href="https://www.meta.com/en-gb/about/?utm_source=about.meta.com&utm_medium=redirect">Meta</a></div>
+            <div> <a class="items" target="_blank" href="https://about.instagram.com/">About</a></div>
+            <div> <a class="items" target="_blank" href="https://about.instagram.com/blog">Blog</a></div>
+            <div> <a class="items" target="_blank" href="https://about.instagram.com/about-us/careers">Job</a></div>
+            <div> <a class="items" target="_blank" href="https://help.instagram.com/">Help</a></div>
+            <div> <a class="items" target="_blank" href=" https://developers.facebook.com/docs/instagram-platform">API</a></div>
+            <div> <a class="items" target="_blank" href=" https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">Privacy</div>
+            <div> <a class="items" target="_blank" href="https://help.instagram.com/581066165581870/">Terms</a></div>
+            <div> <a class="items" target="_blank" href="https://www.instagram.com/explore/locations/">Locations</a></div>
+            <div> <a class="items" target="_blank" href="https://www.instagram.com/web/lite/">Instagram Lite</a></div>
+            <div> <a class="items" target="_blank" href="https://www.threads.com/">Threads</a></div>
+            <div> <a class="items" target="_blank" href="https://www.facebook.com/help/instagram/261704639352628">Contact Uploading & Non-Users</a></div>
+            <div> <a class="items" target="_blank" href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fmeta_verified%2F%3Fentrypoint%3Dweb_footer%26__coig_login%3D1#">Meta Verified</a></div>
+        </div>
+        <div class="rights-years">
+            &copy; 2025 Instagram from Meta
+        </div>
+    </div>
+
+    <script>
+        const images=[
+            "home-pic1.png",
+            "home-pic2.png",
+            "home-pic3.png",
+        ];
+        const randomIndex = Math.floor(Math.random() * images.length);
+        
+        document.getElementById("randomImage").src = images[randomIndex];
+    </script>
+</body>
+</html>

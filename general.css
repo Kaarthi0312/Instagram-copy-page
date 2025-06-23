@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+}
+
+.sections{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section,
+.right-section,
+.separation-line {
+  transition: all 0.5s ease;
+}
+
+.left-section{
+    /* background-color: lightpink; */
+    display:flex;
+    width: 50vw;
+    height: 100vh;
+}
+
+.insta-icon{
+    /* background-color: lightgoldenrodyellow; */
+    padding: 40px 0px 0px 40px;
+}
+
+.insta-top-icon{
+    width: 94px;
+}
+
+.quotes{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.close-fd{
+    padding-top:10px ;
+    padding-bottom:20px ;
+
+}
+
+.home-image{
+    /* background-color: lightgreen; */
+    width: 50vw;
+    height: 67vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.image-home{
+    height: 90%;
+    /* background-color: lightblue; */
+
+}
+
+/* separation-line */
+.separation-line{
+    width: 2px;
+    height: 100vh;
+    background-color: lightgray;
+}
+/* RIGHT SECTION */
+.right-section{
+    /* background-color: lightblue; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.user_input,
+.pass_input{
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 400px;
+    padding: 10px 0px 10px 0px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login-btn{
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.login-btn:disabled{
+    background-color: rgba(38, 88, 227, 0.463)  ;
+    cursor:no-drop;
+}
+.login-btn:enabled{
+    background-color: rgb(64, 81, 208);
+}
+.forgot-pass{
+    background-color: white;
+    transition: background-color 0.15s;
+    margin-top: 8px;
+    margin-bottom:20px ;
+}
+.forgot-pass:hover{
+    background-color: rgb(242, 242, 242);
+}
+
+.create-account{
+    color: rgb(18, 40, 205);
+    border:2px solid rgb(64, 81, 208);
+    background-color: white;
+    margin-top: 20px;
+}
+.meta-icon{
+    /* background-color: lightpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.meta-img-icon{
+    width: 20px;
+    margin-right:5px ;
+}
+
+
+
+@media (max-width: 808px) {
+  .left-section {
+    display: none;
+  }
+
+  .separation-line {
+    display: none;
+  }
+
+  .right-section {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+/* bottom sectiond */
+.line{
+    width: 98vw;
+    height: 2px;
+    background-color: lightgray;
+}
+.bottom{
+    /* background-color: lightblue; */
+    width: 98vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.reduction{
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    /* background-color: lightpink; */
+    
+    flex-wrap: wrap;
+}
+.items{
+    font-family: sans-serif;
+    color: rgb(113, 112, 112);
+    font-size: 14px;
+    text-decoration: none;
+    transition: text-decoration 0.15s;
+}
+.items:hover{
+    text-decoration: underline;
+}
+/* rights reserverd */
+.rights-years{
+    font-family: sans-serif;
+    color: rgb(113, 112, 112);
+    font-size: 14px;
+}
