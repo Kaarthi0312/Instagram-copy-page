@@ -16,7 +16,7 @@ body{
 .left-section{
     /* background-color: lightpink; */
     display:flex;
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
 }
 
@@ -65,10 +65,10 @@ body{
 /* RIGHT SECTION */
 .right-section{
     /* background-color: lightblue; */
-    width: 100vw;
-    height: 100vh;
-    padding: 0 20px;
-    display: flex;
+   width: 100vw;
+  height: 100vh;
+  padding: 0 20px;
+  display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@ body{
 .pass_input{
     display: flex;
     width: 100%;
-    max-width: 350px;
+  max-width: 350px;
     padding: 14px 20px 14px 20px;
     border-radius: 10px;
     border: 2px solid lightgray;
@@ -123,6 +123,13 @@ body{
     background-color: white;
     margin-top: 20px;
 }
+
+.line-no-deco{
+    text-decoration: none;
+}
+.line-no-deco:active{
+    color: black;
+}
 .meta-icon{
     /* background-color: lightpink; */
     display: flex;
@@ -137,7 +144,7 @@ body{
 
 
 
-@media (max-width: 808px) {
+@media (max-width: 700px) {
   .left-section {
     display: none;
   }
@@ -151,9 +158,10 @@ body{
     height: 100vh;
   }
 }
+
 /* bottom sectiond */
 .line{
-    width: 98vw;
+    width: 99vw;
     height: 2px;
     background-color: lightgray;
 }
@@ -166,7 +174,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
-.reduction{
+.reduction{padding-top:10px ;
     width: 98vw;
     display: flex;
     align-items: center;
@@ -188,7 +196,17 @@ body{
 }
 /* rights reserverd */
 .rights-years{
+    display: flex;
+    padding-bottom: 10px;
+
+    flex-direction: column;
     font-family: sans-serif;
     color: rgb(113, 112, 112);
     font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.disclaimer-text{
+    display: block;
+
 }
